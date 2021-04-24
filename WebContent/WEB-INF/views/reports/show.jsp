@@ -25,7 +25,8 @@
                             <th>内容</th>
                             <td><pre>
                                     <c:out value="${report.content}"></c:out>
-                                </pre></td>
+                                </pre>
+                                </td>
                         </tr>
 
                         <tr>
