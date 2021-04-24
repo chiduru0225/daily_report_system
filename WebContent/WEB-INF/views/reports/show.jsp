@@ -23,10 +23,9 @@
 
                         <tr>
                             <th>内容</th>
-                            <td><pre>
-                                    <c:out value="${report.content}"></c:out>
-                                </pre>
-                                </td>
+                            <td>
+                            <pre><c:out value="${report.content}"></c:out></pre>
+                            </td>
                         </tr>
 
                         <tr>
