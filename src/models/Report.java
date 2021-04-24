@@ -36,7 +36,7 @@ public class Report {
 
     @ManyToOne
     @JoinColumn(name = "employee_id", nullable = false)
-    private Employee emoployee;
+    private Employee employee;
 
     @Column(name = "report_date", nullable = false)
     private Date report_date;
@@ -62,12 +62,12 @@ public class Report {
         this.id = id;
     }
 
-    public Employee getEmoployee() {
-        return emoployee;
+    public Employee getEmployee() {
+        return employee;
     }
 
-    public void setEmoployee(Employee emoployee) {
-        this.emoployee = emoployee;
+    public void setEmployee(Employee employee) {
+        this.employee = employee;
     }
 
     public Date getReport_date() {
